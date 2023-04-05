@@ -8,6 +8,13 @@ yarn lint ||
         false;
 )
 
+yarn tslint ||
+(
+    echo '🤡😂❌🤡 Failed Type check. 🤡😂❌🤡
+            Are you seriously trying to write that? Make the changes required above.'
+    false;
+)
+
 
 yarn build ||
 (

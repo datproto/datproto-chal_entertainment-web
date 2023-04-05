@@ -1,8 +1,24 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: [
+    './src/**/*.{js,jsx,ts,tsx}'
+  ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'ent': ['Outfit', 'sans-serif']
+    },
+    extend: {
+      colors: {
+        'ent': {
+          'red': '#FC4747',
+          'blue':  {
+            'grey': '#5A698F',
+            'dark': '#10141E',
+            'dark-semi': '#161D2F'
+          }
+        }
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),

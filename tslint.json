@@ -23,7 +23,8 @@
       }
     },
     "semicolon": false,
-    "trailing-comma": false
+    "trailing-comma": false,
+
   },
   "linterOptions": {
     "exclude": [
